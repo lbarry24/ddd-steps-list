@@ -45,8 +45,7 @@ export class DddStepsListItem extends DDDSuper(I18NMixin(LitElement)) {
           position: relative;
         }
 
-        /* 👇 (removed the last-child rule so dashes appear under 4 too) */
-
+       
         .step-wrapper {
           display: flex;
           align-items: flex-start;
